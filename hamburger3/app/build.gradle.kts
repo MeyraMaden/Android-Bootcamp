@@ -4,13 +4,13 @@ plugins {
 }
 
 android {
-    namespace = "com.yuki.odevler"
-    compileSdk = 35
+    namespace = "com.yuki.hamburger"
+    compileSdk = 34
 
     defaultConfig {
-        applicationId = "com.yuki.odevler"
+        applicationId = "com.yuki.hamburger"
         minSdk = 24
-        targetSdk = 35
+        targetSdk = 34
         versionCode = 1
         versionName = "1.0"
 
@@ -42,7 +42,6 @@ dependencies {
     implementation(libs.material)
     implementation(libs.androidx.activity)
     implementation(libs.androidx.constraintlayout)
-    implementation(libs.firebase.inappmessaging)
     testImplementation(libs.junit)
     androidTestImplementation(libs.androidx.junit)
     androidTestImplementation(libs.androidx.espresso.core)

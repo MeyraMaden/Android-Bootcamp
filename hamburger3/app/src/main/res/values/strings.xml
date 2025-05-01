@@ -1,0 +1,13 @@
+<resources>
+    <string name="app_name">Hamburger Uygulaması</string>
+    <string name="beef_cheese_burger">Dana Peynirli Hamburger</string>
+    <string name="cheese">Peynir</string>
+    <string name="pickle">Turşu</string>
+    <string name="onion">Soğan</string>
+    <string name="tomato">Domates</string>
+    <string name="delivery_time">25 min</string>
+    <string name="delivery">Teslimat</string>
+    <string name="meet_your_burger">Acıktınız mı? Hamburgeriniz hazır!</string>
+    <string name="price">$6.99</string>
+    <string name="add_to_cart">SEPETE EKLE</string>
+</resources>

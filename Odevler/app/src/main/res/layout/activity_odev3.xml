@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:background="@android:color/white" // Varsayılan arka plan rengi
+    tools:context=".Odev3Activity">
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:gravity="end">
+
+<Button
+    android:id="@+id/dilSecenek"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="TR/EN"
+    android:textSize="12sp" />
+
+</LinearLayout>
+
+<TextView
+android:id="@+id/pizzaAdi"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Beef Cheese"
+android:textSize="24sp"
+android:textStyle="bold"
+android:textColor="@android:color/black"
+android:layout_marginTop="16dp"
+android:layout_gravity="center_horizontal" />
+
+<ImageView
+android:id="@+id/pizzaGorseli"
+android:layout_width="150dp"
+android:layout_height="150dp"
+android:src="@drawable/pizza_placeholder" // Yer tutucu görsel
+    android:scaleType="centerCrop"
+    android:layout_marginTop="16dp"
+    android:layout_gravity="center_horizontal" />
+
+<TextView
+android:id="@+id/icindekiler"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Peynir, Sucuk, Zeytin, Biber"
+android:textSize="16sp"
+android:textColor="@android:color/black"
+android:layout_marginTop="8dp"
+android:layout_gravity="center_horizontal" />
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:gravity="center_vertical"
+android:layout_marginTop="16dp">
+
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="20 dk"
+    android:textSize="14sp"
+    android:textColor="@android:color/black" />
+
+<TextView
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="Teslimat"
+    android:textSize="14sp"
+    android:textColor="@android:color/black"
+    android:gravity="end" />
+
+</LinearLayout>
+
+<TextView
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Damaklarınızı şenlendirecek lezzetli pizzamız!"
+android:textSize="16sp"
+android:textColor="@android:color/black"
+android:layout_marginTop="16dp"
+android:gravity="center_horizontal" />
+
+<LinearLayout
+android:layout_width="match_parent"
+android:layout_height="wrap_content"
+android:orientation="horizontal"
+android:gravity="center_vertical"
+android:layout_marginTop="24dp">
+
+<TextView
+    android:id="@+id/fiyat"
+    android:layout_width="0dp"
+    android:layout_height="wrap_content"
+    android:layout_weight="1"
+    android:text="$5.98"
+    android:textSize="28sp"
+    android:textColor="#4CAF50"
+    android:textStyle="bold" />
+
+<Button
+    android:id="@+id/sepeteEkle"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="SEPETE EKLE"
+    android:backgroundTint="#FF9800"
+    android:textColor="@android:color/white" />
+
+</LinearLayout>
+
+<Button
+android:id="@+id/geceModu"
+android:layout_width="wrap_content"
+android:layout_height="wrap_content"
+android:text="Gece Modu"
+android:layout_marginTop="16dp"
+android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
