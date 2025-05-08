@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:startDestination="@id/anasayfaFragment">
+
+    <fragment
+        android:id="@+id/anasayfaFragment"
+        android:name="com.ornek.AnasayfaFragment"
+        android:label="Anasayfa">
+        <action android:id="@+id/action_anasayfa_to_sayfaA" app:destination="@id/sayfaAFragment" />
+        <action android:id="@+id/action_anasayfa_to_sayfaX" app:destination="@id/sayfaXFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/sayfaAFragment"
+        android:name="com.ornek.SayfaAFragment"
+        android:label="Sayfa A">
+        <action android:id="@+id/action_sayfaA_to_sayfaB" app:destination="@id/sayfaBFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/sayfaBFragment"
+        android:name="com.ornek.SayfaBFragment"
+        android:label="Sayfa B">
+        <action android:id="@+id/action_sayfaB_to_sayfaY" app:destination="@id/sayfaYFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/sayfaXFragment"
+        android:name="com.ornek.SayfaXFragment"
+        android:label="Sayfa X">
+        <action android:id="@+id/action_sayfaX_to_sayfaY" app:destination="@id/sayfaYFragment" />
+    </fragment>
+
+    <fragment
+        android:id="@+id/sayfaYFragment"
+        android:name="com.ornek.SayfaYFragment"
+        android:label="Sayfa Y">
+        <!-- Geri tuşuna basıldığında anasayfaya dönmesi için backstack temizleme kodu Kotlin tarafında yapılacak -->
+    </fragment>
+</navigation>
