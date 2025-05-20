@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "com.example.todoapp-merged_res-52:/layout_activity_main.xml.flat",
+        "source": "com.example.todoapp-main-54:/layout/activity_main.xml"
+    },
+    {
+        "merged": "com.example.todoapp-merged_res-52:/navigation_nav_graph.xml.flat",
+        "source": "com.example.todoapp-main-54:/navigation/nav_graph.xml"
+    },
+    {
+        "merged": "com.example.todoapp-merged_res-52:/layout_fragment_home.xml.flat",
+        "source": "com.example.todoapp-main-54:/layout/fragment_home.xml"
+    },
+    {
+        "merged": "com.example.todoapp-merged_res-52:/layout_fragment_detail.xml.flat",
+        "source": "com.example.todoapp-main-54:/layout/fragment_detail.xml"
+    },
+    {
+        "merged": "com.example.todoapp-merged_res-52:/layout_item_todo.xml.flat",
+        "source": "com.example.todoapp-main-54:/layout/item_todo.xml"
+    },
+    {
+        "merged": "com.example.todoapp-merged_res-52:/layout_fragment_add.xml.flat",
+        "source": "com.example.todoapp-main-54:/layout/fragment_add.xml"
+    }
+]
